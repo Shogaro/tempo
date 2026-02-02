@@ -1,0 +1,30 @@
+pour le projet java : 
+	- maps déjà établies (3 à 4 maps)
+	- rogue like (reinit a chaque partie)
+	- theme dofus en pixel art
+
+	-Mouvement
+		• mouvement ZQSD
+		• attaquer
+		• dash ?
+		• parer ?
+
+	- amélioration
+		• PV
+		• degat
+		• vitesse d'attaque
+		• vitesse de déplacement
+		• taux d'esquive
+
+	- objet
+		• différentes armes ? 
+		• différentes relique ?
+
+	- type de perso
+		• guerrier (gros dégât / petite vitesse d'attaque / peu de vitesse de déplacement / bcp de pv)
+		• voleur / assassin (petit dégât / grosse vitesse d'attaque / bcp de vitesse de déplacement / peu de pv)
+		• mage (petit dégât / dégât en zone)
+		• tireur (gros dégât / cible unique)
+
+
+pour les soundeffects (surtout bruits d'épée) en prendre qu'un et changer le pitch entre une certaine plage pour eviter la répétition de bruit

@@ -1,0 +1,171 @@
+Architecture overview and Character explanation (detailed)
+
+1) Architecture diagram (classes + relations)
+
+                         +-------------------+
+                         |     Lwjgl3Launcher|
+                         |  (desktop entry)  |
+                         +---------+---------+
+                                   |
+                                   v
++-------------------+     owns     +-------------------+
+|     Main (Game)   |------------->|   Shared Resources|
+| - navigation      |              | SpriteBatch       |
+| - screen swap     |              | ShapeRenderer     |
+| - lifecycle       |              | BitmapFont        |
++--+-----+-----+----+              | UiRenderer        |
+   |     |     |                   | AssetStore        |
+   |     |     |                   | AudioSystem       |
+   |     |     |                   +-------------------+
+   |     |     |
+   |     |     +-------------------> EndScreen
+   |     +------------------------> SettingsScreen
+   +------------------------------> MenuScreen
+   |
+   +------------------------------> GameScreen
+                                     |
+                                     v
+                            +------------------+
+                            |     Entities     |
+                            | Character (base) |
+                            |   - Warrior      |
+                            |   - Assassin     |
+                            | Mob (enemy)      |
+                            +------------------+
+
+Reading summary:
+- Lwjgl3Launcher starts the desktop app.
+- Main creates shared resources and switches between screens.
+- Each Screen handles its own UI/flow.
+- GameScreen drives gameplay and entity updates.
+
+2) Character.java line-by-line explanation (logical blocks)
+
+File: core/src/main/java/fr/shogaro/testgame/entities/Character.java
+
+Header and imports
+- Declares the package for entities.
+- Imports libGDX types: Texture, Animation, SpriteBatch, TextureRegion, Rectangle, Array.
+- Imports EnumMap for animations by state/direction.
+
+Internal enums
+- Direction: TOP, BOTTOM, LEFT, RIGHT, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT.
+- State: IDLE, MOVE, ATTACK, DAMAGE.
+
+Core stats and position
+- healthMax / healthCurrent: max and current HP.
+- x, y, width, height: position and size.
+- attackDamage / attackSpeed / attackRange / speed: gameplay stats.
+
+State tracking
+- direction: current facing direction.
+- lastHorizontal / lastVertical: last known axis directions.
+- state: current animation state.
+- moving: whether the character is moving.
+
+Timers and flags
+- stateTime: animation time accumulator.
+- attackCooldown / damageCooldown: cooldown timers.
+- attackTriggered: set when an attack is triggered this frame.
+
+Animation storage
+- animations: EnumMap of State -> Direction -> Animation.
+- animationTextures: textures to dispose later.
+- currentFrame: frame to render this frame.
+
+Damage overlay + flash
+- damageOverlayAnimation / damageOverlayFrame / damageOverlayTime / damageOverlayActive.
+- damageOverlayScale controls overlay size.
+- flashTime / flashDuration / flashActive / flashScale / flashAlpha.
+
+Hitboxes
+- attackHitbox and hurtHitbox rectangles.
+
+Constructor: Character(int health, int damage, float aSpeed, float aRange, float speed)
+- Initializes the core stats.
+- Sets healthCurrent to healthMax.
+
+Abstract move()
+- Implemented by Warrior and Assassin to define input and movement.
+
+update(float delta, Rectangle mobHitbox, Rectangle mobAttackHitbox, int mobDamage)
+- Resets attackTriggered.
+- Updates stateTime and cooldowns.
+- Updates hitboxes.
+- Triggers attack if attackHitbox overlaps mobHitbox and cooldown allows.
+- Triggers damage if hurtHitbox overlaps mobAttackHitbox and cooldown allows.
+- Returns to MOVE/IDLE if ATTACK animation finished.
+- Selects current animation and frame based on state/direction.
+- Updates damage overlay animation if active.
+- Updates flash timer if active.
+
+render(SpriteBatch batch)
+- Draws currentFrame at (x, y).
+- Draws a flash overlay when hit.
+- Draws damage overlay animation on top.
+
+dispose()
+- Disposes all textures in animationTextures.
+
+Getters
+- getHealthMax, getHealthCurrent
+- getX, getY
+- getAttackDamage, getAttackSpeed, getAttackRange, getSpeed
+- getWidth, getHeight
+- getAttackHitbox, getHurtHitbox
+
+takingDamage(int damage)
+- Subtracts damage, clamps at 0.
+
+setState(State newState)
+- Changes state and resets stateTime when state changes.
+
+setDirection(Direction newDirection)
+- Updates direction plus lastHorizontal/lastVertical memory.
+- Ensures diagonals update both axis memories correctly.
+
+addAnimation(State state, Direction direction, Animation<TextureRegion> animation)
+- Adds an animation for a state/direction into the map.
+
+addAnimationForAllDirections(State state, Animation<TextureRegion> animation)
+- Applies one animation to all directions.
+
+setDamageOverlayAnimation(Animation<TextureRegion> animation)
+- Sets the animation used for damage overlay.
+
+buildAnimationSeries(...)
+- Loads frames from disk into textures.
+- Creates an Animation with specified frameDuration and playMode.
+
+buildSingleFrame(String path)
+- Creates a single-frame Animation from a single texture.
+
+triggerAttack()
+- Sets state to ATTACK, resets cooldown, flags attackTriggered.
+
+triggerDamage(int damage)
+- Applies damage and enables overlay + flash.
+- Resets timers and sets damage cooldown.
+
+isCurrentAnimationFinished()
+- Returns true if the current animation finished or not found.
+
+getAnimation(State state, Direction direction)
+- Fetches exact animation or falls back to BOTTOM, LEFT, TOP_LEFT.
+
+resolveDirectionForState(State state, Direction baseDirection)
+- Picks the best direction for ATTACK using lastHorizontal/lastVertical.
+- Falls back to mirrored directions if needed.
+
+updateHitboxes()
+- Hurt hitbox is 45% of sprite size, centered.
+- Attack hitbox is scaled by attackRange.
+
+consumeAttackTriggered()
+- Returns true once if attackTriggered is set, then clears it.
+
+tryTriggerAttack()
+- Triggers an attack if attackCooldown is zero.
+
+applyDamage(int damage)
+- Applies damage if damageCooldown allows.

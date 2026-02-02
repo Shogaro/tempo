@@ -1,0 +1,39 @@
+bouftou.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/viewLeft/bouftou_walk_left
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+mouvement/viewLeft/bouftou_walk_left
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+
+bouftou2.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/viewRight/bouftou_walk_right
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+mouvement/viewRight/bouftou_walk_right
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2

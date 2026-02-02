@@ -1,0 +1,26 @@
+[
+  {
+    "id": "piouRoyal",
+    "name": "Piou Royal",
+    "stats": {
+      "maxHealth": 140,
+      "attackDamage": 14,
+      "speed": 125.0,
+      "attackSpeed": 1.1
+    },
+    "animations": "animations/boss/piouroyal.json"
+  }
+,
+  {
+    "id": "bouftouRoyal",
+    "name": "Bouftou Royal",
+    "stats": {
+      "maxHealth": 420,
+      "attackDamage": 22,
+      "speed": 70.0,
+      "attackSpeed": 0.8
+    },
+    "animations": "animations/boss/bouftouroyal.json"
+  }
+
+]

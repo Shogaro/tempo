@@ -1,0 +1,25 @@
+{
+  "atlas": "atlases/sram.atlas",
+  "walk": {
+    "top": { "prefix": "mouvement/animatedTop/sram_walk_top", "frameDuration": 0.12, "playMode": "LOOP" },
+    "bottom": { "prefix": "mouvement/animatedBottom/sram_walk_bottom", "frameDuration": 0.12, "playMode": "LOOP" },
+    "left": { "prefix": "mouvement/animatedLeft/sram_walk_left", "frameDuration": 0.12, "playMode": "LOOP" },
+    "right": { "prefix": "mouvement/animatedRight/sram_walk_right", "frameDuration": 0.12, "playMode": "LOOP" },
+    "topLeft": { "prefix": "mouvement/animatedTopLeft/sram_walk_top_left", "frameDuration": 0.12, "playMode": "LOOP" },
+    "topRight": { "prefix": "mouvement/animatedTopRight/sram_walk_top_right", "frameDuration": 0.12, "playMode": "LOOP" },
+    "bottomLeft": { "prefix": "mouvement/animatedBottomLeft/sram_walk_bottom_left", "frameDuration": 0.12, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "mouvement/animatedBottomRight/sram_walk_bottom_right", "frameDuration": 0.12, "playMode": "LOOP" }
+  },
+  "idle": {
+    "topLeft": { "prefix": "staticWeapon/animatedTopLeft/sram_idle_top_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "topRight": { "prefix": "staticWeapon/animatedTopRight/sram_idle_top_right", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomLeft": { "prefix": "staticWeapon/animatedBottomLeft/sram_idle_bottom_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "staticWeapon/animatedBottomRight/sram_idle_bottom_right", "frameDuration": 0.2, "playMode": "LOOP" }
+  },
+  "attack": {
+    "topLeft": { "prefix": "attack/animatedTopLeft/sram_attack_top_left", "frameDuration": 0.1, "playMode": "NORMAL" },
+    "topRight": { "prefix": "attack/animatedTopRight/sram_attack_top_right", "frameDuration": 0.1, "playMode": "NORMAL" },
+    "bottomLeft": { "prefix": "attack/animatedBottomLeft/sram_attack_bottom_left", "frameDuration": 0.1, "playMode": "NORMAL" },
+    "bottomRight": { "prefix": "attack/animatedBottomRight/sram_attack_bottom_right", "frameDuration": 0.1, "playMode": "NORMAL" }
+  }
+}

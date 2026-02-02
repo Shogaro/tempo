@@ -1,0 +1,51 @@
+import com.badlogic.gdx.tools.texturepacker.TexturePacker
+import com.badlogic.gdx.tools.texturepacker.TexturePacker.Settings
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  api "com.badlogicgames.ashley:ashley:$ashleyVersion"
+  api "com.badlogicgames.gdx-controllers:gdx-controllers-core:$gdxControllersVersion"
+  api "com.badlogicgames.gdx:gdx-ai:$aiVersion"
+  api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+  api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
+
+  if(enableGraalNative == 'true') {
+    implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"
+  }
+}
+
+task packTextures {
+  group = "assets"
+  description = "Packs character and mob textures into atlases."
+  doLast {
+    def assetsDir = file("../assets")
+    def outputDir = new File(assetsDir, "atlases")
+    if (!outputDir.exists()) {
+      outputDir.mkdirs()
+    }
+
+    def settings = new Settings()
+    settings.filterMin = com.badlogic.gdx.graphics.Texture.TextureFilter.Nearest
+    settings.filterMag = com.badlogic.gdx.graphics.Texture.TextureFilter.Nearest
+    settings.paddingX = 2
+    settings.paddingY = 2
+    settings.duplicatePadding = true
+    settings.rotation = false
+    settings.stripWhitespaceX = false
+    settings.stripWhitespaceY = false
+    settings.flattenPaths = false
+
+    def roots = ["charactersPixel", "mobPixel", "bossPixel"]
+    roots.each { rootName ->
+      def rootDir = new File(assetsDir, rootName)
+      if (!rootDir.exists()) return
+      rootDir.listFiles().findAll { it.isDirectory() }.each { entityDir ->
+        def packName = entityDir.name.toLowerCase()
+        TexturePacker.process(settings, entityDir.absolutePath, outputDir.absolutePath, packName)
+      }
+    }
+  }
+}

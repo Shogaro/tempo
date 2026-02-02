@@ -1,0 +1,25 @@
+{
+  "atlas": "atlases/iop.atlas",
+  "walk": {
+    "top": { "prefix": "mouvement/animatedTop/iop_walk_top", "frameDuration": 0.12, "playMode": "LOOP" },
+    "bottom": { "prefix": "mouvement/animatedBottom/iop_walk_bottom", "frameDuration": 0.12, "playMode": "LOOP" },
+    "left": { "prefix": "mouvement/animatedLeft/iop_walk_left", "frameDuration": 0.12, "playMode": "LOOP" },
+    "right": { "prefix": "mouvement/animatedRight/iop_walk_right", "frameDuration": 0.12, "playMode": "LOOP" },
+    "topLeft": { "prefix": "mouvement/animatedTopLeft/iop_walk_top_left", "frameDuration": 0.12, "playMode": "LOOP" },
+    "topRight": { "prefix": "mouvement/animatedTopRight/iop_walk_top_right", "frameDuration": 0.12, "playMode": "LOOP" },
+    "bottomLeft": { "prefix": "mouvement/animatedBottomLeft/iop_walk_bottom_left", "frameDuration": 0.12, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "mouvement/animatedBottomRight/iop_walk_bottom_right", "frameDuration": 0.12, "playMode": "LOOP" }
+  },
+  "idle": {
+    "topLeft": { "prefix": "staticWeapon/animatedTopLeft/iop_idle_top_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "topRight": { "prefix": "staticWeapon/animatedTopRight/iop_idle_top_right", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomLeft": { "prefix": "staticWeapon/animatedBottomLeft/iop_idle_bottom_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "staticWeapon/animatedBottomRight/iop_idle_bottom_right", "frameDuration": 0.2, "playMode": "LOOP" }
+  },
+  "attack": {
+    "topLeft": { "prefix": "attack/animatedTopLeft/iop_attack_top_left", "frameDuration": 0.1, "playMode": "NORMAL" },
+    "topRight": { "prefix": "attack/animatedTopRight/iop_attack_top_right", "frameDuration": 0.1, "playMode": "NORMAL" },
+    "bottomLeft": { "prefix": "attack/animatedBottomLeft/iop_attack_bottom_left", "frameDuration": 0.1, "playMode": "NORMAL" },
+    "bottomRight": { "prefix": "attack/animatedBottomRight/iop_attack_bottom_right", "frameDuration": 0.1, "playMode": "NORMAL" }
+  }
+}

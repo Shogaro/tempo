@@ -1,0 +1,460 @@
+
+sram.png
+size: 64, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedBottomLeft/sram_attack_bottom_left
+  rotate: false
+  xy: 1, 133
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 1
+attack/animatedBottomLeft/sram_attack_bottom_left
+  rotate: false
+  xy: 1, 67
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 2
+attack/animatedBottomLeft/sram_attack_bottom_left
+  rotate: false
+  xy: 1, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 3
+
+sram2.png
+size: 64, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedBottomRight/sram_attack_bottom_right
+  rotate: false
+  xy: 1, 133
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 1
+attack/animatedBottomRight/sram_attack_bottom_right
+  rotate: false
+  xy: 1, 67
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 2
+attack/animatedBottomRight/sram_attack_bottom_right
+  rotate: false
+  xy: 1, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 3
+
+sram3.png
+size: 64, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedTopLeft/sram_attack_top_left
+  rotate: false
+  xy: 1, 133
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: 1
+attack/animatedTopLeft/sram_attack_top_left
+  rotate: false
+  xy: 1, 67
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: 2
+attack/animatedTopLeft/sram_attack_top_left
+  rotate: false
+  xy: 1, 1
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: 3
+
+sram4.png
+size: 64, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedTopRight/sram_attack_top_right
+  rotate: false
+  xy: 1, 133
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: 1
+attack/animatedTopRight/sram_attack_top_right
+  rotate: false
+  xy: 1, 67
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: 2
+attack/animatedTopRight/sram_attack_top_right
+  rotate: false
+  xy: 1, 1
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: 3
+
+sram5.png
+size: 512, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedBottom/sram_walk_bottom
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedBottom/sram_walk_bottom
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedBottom/sram_walk_bottom
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedBottom/sram_walk_bottom
+  rotate: false
+  xy: 199, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+
+sram6.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedBottomLeft/sram_walk_bottom_left
+  rotate: false
+  xy: 1, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedBottomLeft/sram_walk_bottom_left
+  rotate: false
+  xy: 56, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedBottomLeft/sram_walk_bottom_left
+  rotate: false
+  xy: 111, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedBottomLeft/sram_walk_bottom_left
+  rotate: false
+  xy: 166, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 4
+
+sram7.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedBottomRight/sram_walk_bottom_right
+  rotate: false
+  xy: 1, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedBottomRight/sram_walk_bottom_right
+  rotate: false
+  xy: 56, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedBottomRight/sram_walk_bottom_right
+  rotate: false
+  xy: 111, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedBottomRight/sram_walk_bottom_right
+  rotate: false
+  xy: 166, 1
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: 4
+
+sram8.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedLeft/sram_walk_left
+  rotate: false
+  xy: 1, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedLeft/sram_walk_left
+  rotate: false
+  xy: 54, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedLeft/sram_walk_left
+  rotate: false
+  xy: 107, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedLeft/sram_walk_left
+  rotate: false
+  xy: 160, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 4
+
+sram9.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedRight/sram_walk_right
+  rotate: false
+  xy: 1, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedRight/sram_walk_right
+  rotate: false
+  xy: 54, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedRight/sram_walk_right
+  rotate: false
+  xy: 107, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedRight/sram_walk_right
+  rotate: false
+  xy: 160, 1
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: 4
+
+sram10.png
+size: 512, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedTop/sram_walk_top
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedTop/sram_walk_top
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedTop/sram_walk_top
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedTop/sram_walk_top
+  rotate: false
+  xy: 199, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+
+sram11.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedTopLeft/sram_walk_top_left
+  rotate: false
+  xy: 1, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedTopLeft/sram_walk_top_left
+  rotate: false
+  xy: 50, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedTopLeft/sram_walk_top_left
+  rotate: false
+  xy: 99, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedTopLeft/sram_walk_top_left
+  rotate: false
+  xy: 148, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 4
+
+sram12.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedTopRight/sram_walk_top_right
+  rotate: false
+  xy: 1, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedTopRight/sram_walk_top_right
+  rotate: false
+  xy: 50, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedTopRight/sram_walk_top_right
+  rotate: false
+  xy: 99, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedTopRight/sram_walk_top_right
+  rotate: false
+  xy: 148, 1
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 4
+
+sram13.png
+size: 64, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedBottomLeft/sram_idle_bottom_left
+  rotate: false
+  xy: 1, 1
+  size: 29, 64
+  orig: 29, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedBottomLeft/sram_idle_bottom_left
+  rotate: false
+  xy: 32, 1
+  size: 29, 64
+  orig: 29, 64
+  offset: 0, 0
+  index: 2
+
+sram14.png
+size: 64, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedBottomRight/sram_idle_bottom_right
+  rotate: false
+  xy: 1, 1
+  size: 29, 64
+  orig: 29, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedBottomRight/sram_idle_bottom_right
+  rotate: false
+  xy: 32, 1
+  size: 29, 64
+  orig: 29, 64
+  offset: 0, 0
+  index: 2
+
+sram15.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedTopLeft/sram_idle_top_left
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedTopLeft/sram_idle_top_left
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+
+sram16.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedTopRight/sram_idle_top_right
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedTopRight/sram_idle_top_right
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2

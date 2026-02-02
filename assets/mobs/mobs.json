@@ -1,0 +1,26 @@
+[
+  {
+    "id": "piou",
+    "name": "Piou",
+    "stats": {
+      "maxHealth": 25,
+      "attackDamage": 6,
+      "speed": 115.0,
+      "attackSpeed": 0.8
+    },
+    "animations": "animations/mobs/piou.json"
+  }
+,
+  {
+    "id": "bouftou",
+    "name": "Bouftou",
+    "stats": {
+      "maxHealth": 90,
+      "attackDamage": 12,
+      "speed": 85.0,
+      "attackSpeed": 0.9
+    },
+    "animations": "animations/mobs/bouftou.json"
+  }
+
+]

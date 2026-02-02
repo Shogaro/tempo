@@ -1,0 +1,460 @@
+
+iop.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedBottomLeft/iop_attack_bottom_left
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+attack/animatedBottomLeft/iop_attack_bottom_left
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+attack/animatedBottomLeft/iop_attack_bottom_left
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+
+iop2.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedBottomRight/iop_attack_bottom_right
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+attack/animatedBottomRight/iop_attack_bottom_right
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+attack/animatedBottomRight/iop_attack_bottom_right
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+
+iop3.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedTopLeft/iop_attack_top_left
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+attack/animatedTopLeft/iop_attack_top_left
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+attack/animatedTopLeft/iop_attack_top_left
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+
+iop4.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+attack/animatedTopRight/iop_attack_top_right
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+attack/animatedTopRight/iop_attack_top_right
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+attack/animatedTopRight/iop_attack_top_right
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+
+iop5.png
+size: 512, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedBottom/iop_walk_bottom
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedBottom/iop_walk_bottom
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedBottom/iop_walk_bottom
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedBottom/iop_walk_bottom
+  rotate: false
+  xy: 199, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+
+iop6.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedBottomLeft/iop_walk_bottom_left
+  rotate: false
+  xy: 1, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedBottomLeft/iop_walk_bottom_left
+  rotate: false
+  xy: 53, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedBottomLeft/iop_walk_bottom_left
+  rotate: false
+  xy: 105, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedBottomLeft/iop_walk_bottom_left
+  rotate: false
+  xy: 157, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 4
+
+iop7.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedBottomRight/iop_walk_bottom_right
+  rotate: false
+  xy: 1, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedBottomRight/iop_walk_bottom_right
+  rotate: false
+  xy: 53, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedBottomRight/iop_walk_bottom_right
+  rotate: false
+  xy: 105, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedBottomRight/iop_walk_bottom_right
+  rotate: false
+  xy: 157, 1
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: 4
+
+iop8.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedLeft/iop_walk_left
+  rotate: false
+  xy: 1, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedLeft/iop_walk_left
+  rotate: false
+  xy: 55, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedLeft/iop_walk_left
+  rotate: false
+  xy: 109, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedLeft/iop_walk_left
+  rotate: false
+  xy: 163, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 4
+
+iop9.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedRight/iop_walk_right
+  rotate: false
+  xy: 1, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedRight/iop_walk_right
+  rotate: false
+  xy: 55, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedRight/iop_walk_right
+  rotate: false
+  xy: 109, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedRight/iop_walk_right
+  rotate: false
+  xy: 163, 1
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: 4
+
+iop10.png
+size: 512, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedTop/iop_walk_top
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedTop/iop_walk_top
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedTop/iop_walk_top
+  rotate: false
+  xy: 133, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedTop/iop_walk_top
+  rotate: false
+  xy: 199, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+
+iop11.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedTopLeft/iop_walk_top_left
+  rotate: false
+  xy: 1, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedTopLeft/iop_walk_top_left
+  rotate: false
+  xy: 47, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedTopLeft/iop_walk_top_left
+  rotate: false
+  xy: 93, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedTopLeft/iop_walk_top_left
+  rotate: false
+  xy: 139, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 4
+
+iop12.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mouvement/animatedTopRight/iop_walk_top_right
+  rotate: false
+  xy: 1, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 1
+mouvement/animatedTopRight/iop_walk_top_right
+  rotate: false
+  xy: 47, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 2
+mouvement/animatedTopRight/iop_walk_top_right
+  rotate: false
+  xy: 93, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 3
+mouvement/animatedTopRight/iop_walk_top_right
+  rotate: false
+  xy: 139, 1
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: 4
+
+iop13.png
+size: 128, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedBottomLeft/iop_idle_bottom_left
+  rotate: false
+  xy: 1, 1
+  size: 31, 64
+  orig: 31, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedBottomLeft/iop_idle_bottom_left
+  rotate: false
+  xy: 34, 1
+  size: 31, 64
+  orig: 31, 64
+  offset: 0, 0
+  index: 2
+
+iop14.png
+size: 128, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedBottomRight/iop_idle_bottom_right
+  rotate: false
+  xy: 1, 1
+  size: 31, 64
+  orig: 31, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedBottomRight/iop_idle_bottom_right
+  rotate: false
+  xy: 34, 1
+  size: 31, 64
+  orig: 31, 64
+  offset: 0, 0
+  index: 2
+
+iop15.png
+size: 128, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedTopLeft/iop_idle_top_left
+  rotate: false
+  xy: 1, 1
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedTopLeft/iop_idle_top_left
+  rotate: false
+  xy: 42, 1
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: 2
+
+iop16.png
+size: 128, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+staticWeapon/animatedTopRight/iop_idle_top_right
+  rotate: false
+  xy: 1, 1
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: 1
+staticWeapon/animatedTopRight/iop_idle_top_right
+  rotate: false
+  xy: 42, 1
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: 2

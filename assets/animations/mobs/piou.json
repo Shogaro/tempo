@@ -1,0 +1,7 @@
+{
+  "atlas": "atlases/piou.atlas",
+  "idle": {
+    "bottomLeft": { "prefix": "mouvement/viewLeft/piou_walk_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "mouvement/viewRight/piou_walk_right", "frameDuration": 0.2, "playMode": "LOOP" }
+  }
+}

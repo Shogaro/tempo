@@ -1,0 +1,7 @@
+{
+  "atlas": "atlases/piouroyal.atlas",
+  "idle": {
+    "bottomLeft": { "prefix": "mouvement/viewLeft/piouroyal_walk_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "mouvement/viewRight/piouroyal_walk_right", "frameDuration": 0.2, "playMode": "LOOP" }
+  }
+}

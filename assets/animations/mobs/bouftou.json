@@ -1,0 +1,7 @@
+{
+  "atlas": "atlases/bouftou.atlas",
+  "idle": {
+    "bottomLeft": { "prefix": "mouvement/viewLeft/bouftou_walk_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "mouvement/viewRight/bouftou_walk_right", "frameDuration": 0.2, "playMode": "LOOP" }
+  }
+}

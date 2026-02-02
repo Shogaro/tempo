@@ -1,0 +1,7 @@
+{
+  "atlas": "atlases/bouftouroyal.atlas",
+  "idle": {
+    "bottomLeft": { "prefix": "mouvement/viewLeft/bouftouroyal_walk_left", "frameDuration": 0.2, "playMode": "LOOP" },
+    "bottomRight": { "prefix": "mouvement/viewRight/bouftouroyal_walk_right", "frameDuration": 0.2, "playMode": "LOOP" }
+  }
+}

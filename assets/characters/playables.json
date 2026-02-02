@@ -1,0 +1,24 @@
+[
+  {
+    "id": "iop",
+    "name": "Iop",
+    "stats": {
+      "maxHealth": 100,
+      "attackDamage": 10,
+      "speed": 120.0,
+      "attackSpeed": 1.5
+    },
+    "animations": "animations/playable/iop.json"
+  },
+  {
+    "id": "sram",
+    "name": "Sram",
+    "stats": {
+      "maxHealth": 80,
+      "attackDamage": 14,
+      "speed": 135.0,
+      "attackSpeed": 1.8
+    },
+    "animations": "animations/playable/sram.json"
+  }
+]
